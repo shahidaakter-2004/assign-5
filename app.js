@@ -31,7 +31,7 @@ document.querySelectorAll(".copy-btn").forEach((btn) => {
 document.querySelectorAll(".call-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
     const card = btn.closest(".card"); 
-    const title = card.querySelector("h2").textContent;  
+    const title = card.querySelector("h3").textContent;  
     const number = card.querySelector(".number").textContent; 
 
     if (coinCount < 20) {

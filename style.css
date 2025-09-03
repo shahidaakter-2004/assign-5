@@ -85,10 +85,10 @@ body {
    font-size: 40px;
    padding: 9px;
 }
-.bannerSubTitel{
+.bannerSubTitle{
     font-weight: 600;
     font-size: 20px;
-    padding: 10px ;
+    padding: 10px;
 }
 .banner-logo {
   width: 92px;
@@ -107,14 +107,15 @@ body {
 }
 .card-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(436px, 3fr));
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 .card {
   margin: 15px auto;
-  width: 436px;
-  height: 360px;
+  width: 325px;
+  height: 300px;
   background: #FFFFFF;
-  padding: 30px;
+  padding: 15px;
   border-radius: 10px;
   text-align: left;
   position: relative;
@@ -139,7 +140,7 @@ body {
   color: #5C5C5C;
   font-size: 18px;
   padding-top: 5px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 .card .heart {
   position: absolute;
@@ -256,8 +257,8 @@ body {
   color: rgba(17, 17, 17, 1);
 }
 #clearHistory {
-  width: 114px;
-  height: 52px;
+  width: 80px;
+  height: 40px;
   background-color: #00A63E;
   border: none;
   border-radius: 30px;
